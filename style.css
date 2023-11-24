@@ -112,6 +112,13 @@ span{
     border-radius: 40px;
     background: #CBCCE8;
     padding: 0px 16px 31px 16px;
-    
-   
+}
+
+@media (max-width: 560px) {
+    #mainimg ,.backimg{
+        display: none;
+    }
+    .container{
+        margin: 190px 10%;
+    }
 }
