@@ -2,3 +2,116 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family:  'Inter', sans-serif;
+    color: #344054;
+;
+}
+.container{
+    width: 360px;
+    height: 517px;
+    flex-shrink: 0;
+    margin: 190px 140px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #667085;
+}
+h1{
+    font-size: 40px;
+}
+.flex{
+    display: flex;
+}
+form{
+    margin-top: 56px;
+}
+
+label{
+    color:  #344054;
+    font-family: Inter;
+    font-size: 14px;    
+}
+#user_password , #user_email{
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    width: 332px;
+    margin-top: 8px;
+}
+.forget{
+    margin-top: 20px;
+    
+}
+.passdiv{
+    margin-top: 20px;
+}
+#forgeting{
+    border-radius: 4px;
+    border: 1px solid  #D0D5DD;
+    width: 16px;
+    height: 16px;
+    font-size: 14px;
+   
+    
+}
+#forgetpassword{
+    
+    font-size: 14px;
+    float: right;
+}
+ 
+ .signin{
+    margin-top: 32px;
+ }
+ #btn{
+    display: inline-flex;
+    padding: 12px 154px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background:  #5429FF;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    color: white;
+ }
+ #btngoogle {
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    padding: 10px 80px; /* уменьшил ширину padding для компактности, но вы можете настроить под свои нужды */
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background-color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    width: 360px;
+}
+svg {
+    width: 24px; 
+    margin-right: 8px; 
+}
+span{
+    line-height: 1;
+}
+.NewAcc{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.backimg{
+    border-radius: 40px;
+    background: #CBCCE8;
+    padding: 0px 16px 31px 16px;
+    
+   
+}
